@@ -1,0 +1,41 @@
+{% extends "cohort-base.html" %}
+
+
+{% block member_photo %}<img src="/img/profiles/gordon_brander-200.jpg" width="400" height="400"
+    srcset="/img/profiles/gordon_brander-400.jpg 2x" alt="">{% endblock %}
+
+{% block member_name %}Gordon Brander{% endblock %}
+{% block member_company %}Noosphere{% endblock %}
+{% block member_bio %}Gordon worked on 5 browsers and an operating system while previously at Google and Mozilla. Drawing from those experiences, his goal is to understand and create open-ended ecosystems through software.{% endblock %}
+{% block member_mission %}User-owned tools for thinking together. Building an open and decentralized protocol for multiplayer note-taking that prioritizes user-owned data. {% endblock %}
+
+{% block project_desc %}
+<p>I’m building Noosphere, a worldwide decentralized protocol for networked thought. Think Notion or Roam, but massively multiplayer, and distributed over IPFS. Users can connect and share knowledge across a vast distributed graph that stores ideas like your brain does.</p>
+
+<p>On Noosphere, users own and control their data, through secure local-first data containers called Spheres. Your sphere belongs to you, and is signed with a key only you control. Spheres can be linked together, and synced to IPFS, a peer-to-peer network.</p>
+
+<p>My aspiration is for Noosphere to be a decentralized, resilient, user-owned repository for human thought.</p>
+
+{% endblock %}
+{% block project_sub_text %}
+{% endblock %}
+<!-- collaborator text should be a string that will be added to a <p> tag-->
+{% block collaborator_text %}
+<p>
+Our entire protocol stack is open source, and we love to have new contributors. Most of it is written in Rust. <a href="https://github.com/subconsciousnetwork/noosphere">https://github.com/subconsciousnetwork/noosphere</a> </p>
+
+<p>I’m also interested in collaborating with plugin authors for tools like Roam, Obsidian, LogSeq. Noosphere is designed to be a shared data repository that multiple apps can interoperate over. We’re interested in getting multiple “tools for thought” talking over Noosphere’s distributed thought graph. </p>
+
+{% endblock %}
+
+{% block accomplishments %}
+<p>I have worked on 5 browsers and an operating system while at Google and Mozilla, including an early iPad 1 browser, an experimental browser for Servo rendering engine, and Chrome VR, for which I lead product design.</p>
+
+<p>While at Google I helped start a cross-company think tank focused on applying complexity science to large-scale software ecosystems. </p>
+{% endblock %}
+
+{% block interests %}
+<p>Understanding and creating open-ended ecosystems in software.</p>
+
+<p>To that end, I spend a lot of time reading and synthesizing internet history, complexity science, evolutionary theory, cybernetics, ecology, and I publish a newsletter sharing ideas and research. Over 5000 subscribers to-date. <a href="https://subconscious.substack.com"> https://subconscious.substack.com </a></p>
+{% endblock %}
