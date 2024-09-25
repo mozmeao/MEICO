@@ -1,0 +1,51 @@
+{% extends "cohort-base.html" %}
+
+
+{% block member_photo %}<img src="/img/profiles/brendan_fong-200.jpg" width="400" height="400"
+    srcset="/img/profiles/brendan_fong-400.jpg 2x" alt="">{% endblock %}
+
+{% block member_name %}Brendan Fong{% endblock %}
+{% block member_company %}Democratizing Algebraic Julia{% endblock %}
+{% block member_bio %}Brendan is the CEO of Topos Institute, an independent research non-profit. He holds a PhD in computer science from Oxford, and undertook postdoctoral studies in systems engineering and mathematics at UPenn and MIT. He’s also the founder of the open-access journal Compositionality and co-author of the textbook An Invitation to Applied Category Theory.{% endblock %}
+{% block member_mission %}Open the use and future development of AlgebraicJulia to a wider and more diverse community.{% endblock %}
+
+{% block project_desc %}
+<p>Cooperation, especially at large scales, is essential to our ability to build a healthy, democratic society. It’s essential if we are to effectively face challenges like climate change, or future pandemics. </p>
+
+<p>A critical part of cooperation is a shared view of the world, facilitated by clear communication. Computing has revolutionised the way we communicate, but the communication largely remains informal: we tend to instant message in natural language, rather than in more formal, scientific languages.</p>
+
+<p><a href="https://www.algebraicjulia.org">AlgebraicJulia</a> is a series of open-source libraries for scientific computing that focuses on communicating and composing formal models of the world. It’s based on <a href="http://brendanfong.com/fong_spivak_an_invitation.pdf"> category theory</a>, the mathematical study of relationships, composition, and translating between different viewpoints.</p>
+
+<p>While it’s currently mostly used by research scientists, it has further potential as a tool for cooperation. Something as quotidian <a href="https://topos.site/blog/2022/09/using-categorical-logic-for-ai-planning/"> as making an egg sandwich</a> has formal structure, the structure of a recipe: ingredients, equipment, and steps to combine them. And that formal structure doesn’t require advanced mathematical training to express – it’s easy to read a flow chart.</p>
+
+<p> I’m working on advancing AlgebraicJulia as a framework accessible to everybody, by creating materials that invite new people into our community, and equip them to contribute to building the project into its next phase. </p>
+
+{% endblock %}
+{% block project_sub_text %}
+{% endblock %}
+<!-- collaborator text should be a string that will be added to a <p> tag-->
+{% block collaborator_text %}
+<p>All sorts! Building a democratic future takes all of us, especially as technology concretes power. Perhaps I’m most excited about collaborators who share values and vision, but who have wildly distinct experiences and skills. It can be hard work building such a collaboration, but there’s magic in difference working together.</p>
+{% endblock %}
+
+{% block accomplishments %}
+<p>I am founding CEO of <a href="https://topos.institute">Topos Institute</a>, an independent non-profit research institute with a mission to shape technology for public benefit by advancing sciences of connection and integration. </p>
+
+<p>My <a href="http://arxiv.org/abs/1609.05382">PhD thesis</a>, titled ‘The algebra of open and interconnected systems’ introduced a new framework for designing domain specific languages, which has now been implemented in <a href="http://algebraicjulia.org">AlgebraicJulia</a>. </p>
+
+<p>With David Spivak, I wrote <a href="http://brendanfong.com/fong_spivak_an_invitation.pdf">An Invitation to Applied Category Theory</a>, based on a course we taught at MIT. With Bartosz Milewski, we also gave a bunch of lectures on Programming with Categories.</p>
+
+<p>I co-founded several ongoing community initiatives aimed at increasing access to our work, including the diamond open-access journal <a href="https://compositionality-journal.org">Compositionality</a>, the <a href="https://act2023.github.io">International Conference on Applied Category Theory</a>, and the <a href="http://adjointschool.com">Adjoint School</a> for early career researchers in category theory.</p>
+
+{% endblock %}
+
+{% block interests %}
+<p>We live in relation to each other, and to the world around us. Too often our language and tools for thought reduce the world to its parts, to individuals. How do we perceive the overarching wholes? How do we build and shape them to embody values like care and equity, community and justice? </p>
+
+<p>I’m interested in concretely realising this change, bringing together threads from research in mathematics and technology, to ethics and sociology, to funding models, to building new institutions and communities.</p>
+
+<p>There are a couple of angles on this particularly relevant to my current work, aside from the fundamental mathematical research that I’ve spent the last decade pursuing (which remains close to my heart). One central piece for me, as someone embedded in technology in a moment when technology is rapidly reshaping society, is navigating the dangers of overabstraction. How do we see the ways in which the abstractions underlying our technologies fail to capture that which we value, so that we may act to better protect that value? </p>
+
+<p>Another is the economics and culture of technology development. What are the implicit goals behind our technology research and development? How is, for example, today’s AI shaped by venture capital and the advertising-centric business models of our major tech companies? Or how is it shaped by the demographics of the relevant teams? How can we revisit the questions at the core of the teams that build our future, for the benefit of society?</p>
+
+{% endblock %}
